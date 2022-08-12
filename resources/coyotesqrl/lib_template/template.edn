@@ -1,0 +1,10 @@
+{:description "This is a template for my personal lib structure."
+ ;; this does not transform the data but does print a message:
+ :data-fn coyotesqrl.lib-template/data-fn
+ ;; this does not transform the EDN but does print a message:
+ :template-fn coyotesqrl.lib-template/template-fn
+ :transform
+ [["src" "src/{{top/file}}"
+   {"main.clj" "{{main/file}}.clj"}]
+  ["test" "test/{{top/file}}"
+   {"main_test.clj" "{{main/file}}_test.clj"}]]}
