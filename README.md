@@ -9,7 +9,7 @@ FIXME: write usage documentation!
 This is a template project for use with [deps-new](https://github.com/seancorfield/deps-new).
 As originally generated, it will produce a new library project when run:
 
-    $ clojure -Sdeps '{:deps {io.github.coyotesqrl/lib-template {:git/tag "v0.1.0"}}}' -Tnew create :template coyotesqrl/lib-template :name myusername/mycoollib
+    $ clojure -Sdeps '{:deps {io.github.coyotesqrl/lib-template {:git/tag "v0.1.0" :git/sha "457343e"}}}' -Tnew create :template coyotesqrl/lib-template :name myusername/mycoollib
 
 Assuming you have installed `deps-new` as your `new` "tool" via:
 
